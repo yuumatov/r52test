@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>R52 – Test</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner container">
+      <button class="btn-menu" id="btnMenu">Open menu</button>
+    </div>
+  </header>
+  <div class="wrapper container">
+    <nav class="nav" id="menu">
+      <ul class="nav__list">
+        <li class="nav__item">Menu item 1</li>
+        <li class="nav__item">Menu item 2</li>
+        <li class="nav__item">Menu item 3</li>
+        <li class="nav__item">Menu item 4</li>
+        <li class="nav__item">Menu item 5</li>
+        <li class="nav__item">Menu item 6</li>
+        <li class="nav__item">Menu item 7</li>
+        <li class="nav__item">Menu item 8</li>
+        <li class="nav__item">Menu item 9</li>
+        <li class="nav__item">Menu item 10</li>
+      </ul>
+    </nav>
+    <main class="main">
+      <article>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora totam, natus eligendi quia quos veritatis dolore quidem asperiores vitae ea voluptate consectetur, assumenda laudantium temporibus aliquam saepe amet obcaecati delectus dolor tempore non aut doloremque? Ipsam laudantium numquam molestiae voluptates, ut libero architecto vero corporis ullam nesciunt quidem delectus consequatur blanditiis veniam fugit et nisi pariatur nemo, aperiam id facere. Saepe, dolorum tenetur, ipsum aliquid molestiae atque eligendi consequatur, accusamus quod quibusdam iste voluptatem eveniet porro at vitae voluptas. Illo sequi, commodi at veritatis necessitatibus ullam totam porro quas quasi odit, provident voluptatum, temporibus sunt unde mollitia cupiditate consequuntur quisquam?</p>
+      </article>
+      <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius neque minima adipisci delectus maiores ullam, sit odit non odio expedita repellendus voluptates ipsum veritatis similique fugiat, est iusto laboriosam! Fugit quos cupiditate asperiores fuga odit. Ex dolores sint porro ducimus maiores. Ullam consequatur eaque temporibus dolor sint iste, harum reprehenderit maiores omnis voluptatem minima commodi magni quia a eligendi recusandae.</p>
+      </article>
+      <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorum aut deleniti vitae dolores molestiae ex modi minima odit. Est accusamus delectus provident, quo velit rem fuga iste tenetur ducimus sunt distinctio illo optio! Voluptatem repellat quas nemo quisquam ad, voluptates cumque qui alias facilis suscipit maxime fugiat, iusto dolores tempore quasi consectetur iure consequuntur illum. Illum soluta quis optio dignissimos dolore, incidunt illo qui quidem a, doloremque aut eligendi ipsa aperiam, ad saepe exercitationem minus eum similique dolorem. Culpa voluptatibus commodi voluptates repellat, at atque rerum provident nostrum quam, sapiente vero quaerat excepturi. Provident numquam totam officia quos dolorem. Ipsa sequi consectetur asperiores earum nihil aliquid a doloremque iusto ex adipisci saepe delectus similique mollitia voluptatum dignissimos, ab vero eius quis in vel fugiat autem suscipit quos. Sint facere placeat ullam ipsum possimus ea id tempora, fuga laborum necessitatibus? Error ex omnis esse! Facilis ab adipisci rem perspiciatis vel?</p>
+      </article>
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nemo tempore quos laborum reiciendis sit porro non sed commodi ipsam, odio saepe? Exercitationem nobis odit illum nihil labore cum facilis repudiandae fugit repellat minus modi quisquam recusandae ex voluptate laudantium necessitatibus quos ipsam, accusantium dolores quasi tenetur amet vel unde ipsa. Quos, eius nostrum? Voluptatem earum ipsum nobis optio quo voluptatibus odit dolorem labore? Magnam eius rerum sit reprehenderit earum blanditiis. Iusto iure dolorum maiores ipsa corrupti? Aliquam praesentium libero ad id, molestiae aperiam autem expedita quisquam molestias dolorum facere amet iure sed cumque delectus nisi laborum. Exercitationem, explicabo consequuntur.</p>
+      </article>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="footer__inner container">
+      <button id="btnModal">Open modal</button>
+    </div>
+  </footer>
+  
+  <div class="modal" id="modal">
+    <div class="modal__container">
+      <form action="#" method="POST" class="form" id="form" novalidate>
+        <input type="email" name="email" placeholder="Email">
+        <span class="error"></span>
+        <input type="tel" name="phone" placeholder="Phone">
+        <span class="error"></span>
+        <input type="radio" name="sex" id="sex-m" checked>
+        <label for="sex-m">Man</label>
+        <input type="radio" name="sex" id="sex-w">
+        <label for="sex-w">Women</label>
+        <input type="number" name="age" min="18" max="65" placeholder="Age">
+        <span class="error"></span>
+        <input type="submit" value="Submit">
+      </form>
+      <button class="modal__close" id="btnModalClose">Close modal</button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="./main.js" defer></script>
+</body>
+</html>
